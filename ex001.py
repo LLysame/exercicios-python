@@ -10,4 +10,3 @@
 #terceiro comanndo
 #msg = 'ola mundo'
 #print('{}'.format(msg))
-print('teste')

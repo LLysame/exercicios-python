@@ -7,16 +7,17 @@
 
 # from random import randint
 # print(60*'=')
-# print('Pensamentos pensantes !!!')
+# print('\033[7;30mPensamentos pensantes !!!\033[m')
 # print(60*'=')
 # computador = randint(0, 5)  #escolhe um número de 0 a 5 aleatoriamente.
 # print('--------Regras--------')
 # print('números de 0 a 5;')
 # print('apenas 1 número;')
 # print('para jogar de novo e necessario reiniciar o jogo!')
+# print('----------------------')
 # jogador = int(input('Qual número o computador está pensando?: '))  #jogador fala um número que pensa q o computador escolheu
 # if computador == jogador:  #"se" o numero que computador escolheu for igual ao numero do jogador
-#     print('você acertou!!!! :)') #então aparece isso
+#     print('você \033[1;32macertou\033[m!!!! :)') #então aparece isso
 # else:  #senão for
-#     print('você errou! :(')  #então aparece isso
+#     print('você \033[1;31merrou\033[m!')  #então aparece isso
 # print('==========================FIM===============================') #fim do programa
